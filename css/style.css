@@ -1,0 +1,64 @@
+body,
+html {
+	height: 100%;
+	margin: 0;
+	line-height: 1.8em;
+	color: #666;
+	font-size: 16px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 400;
+}
+.pimg1,
+.pimg2,
+.pimg3 {
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	block-size: cover;
+	opacity: .8;
+	background-attachment: fixed;
+}
+.section {
+	text-align: center;
+	padding: 50px 80px;
+}
+.section-light {
+	background-color: #f4f4f4;
+	color: #666;
+}
+.section-dark {
+	background-color: #333;
+	color: #ddd;
+}
+.pimg1 {
+	min-height: 100%;
+	background-image: url(../img/architecture-buildings-city-313782.jpg);
+}
+.pimg2 {
+	background-image: url(../img/brazil-buildings-city-97906.jpg);
+	min-height: 400px;
+}
+.pimg3 {
+	background-image: url(../img/pexels-photo-219692.jpeg);
+	min-height: 400px;
+}
+.ptext {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	font-size: 27px;
+	letter-spacing: 8px;
+	font-weight: 500;
+	color: #000;
+	text-align: center;
+}
+.ptext .border {
+	background-color: #000;
+	color: #f4f4f4;
+	padding: 5px;
+}
+.ptext .trans {
+	background-color: transparent;
+	color: #000;
+	padding: 5px;
+}
